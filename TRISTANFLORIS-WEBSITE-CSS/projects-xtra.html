@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="Projects Tristan Floris"
+      content="Strategic designer that helps businesses grow into future proof brands by incorporating strategic thinking into the design process"
+    />
+
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+
+    <link rel="stylesheet" href="css/animation.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/projects.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <script src="./js/animation.js" defer></script>
+    <script src="./js/nav.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+
+    <title>Tristan Floris</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-wrap">
+        <a class="logo" href="./index.html"
+          >Tristan Floris<span class="superscript">TM</span></a
+        >
+        <nav class="main-nav">
+          <ul data-visible="false" class="main-nav-list">
+            <li>
+              <div class="toggle-container">
+                <input
+                  class="input-dark-light"
+                  type="checkbox"
+                  id="switch"
+                  name="theme"
+                  aria-expanded="false"
+                /><label
+                  class="label-dark-light"
+                  for="switch"
+                  aria-expanded="false"
+                  >Toggle</label
+                >
+              </div>
+            </li>
+            <li>
+              <a class="main-nav-link currentcolor" href="./projects.html"
+                >Projects</a
+              >
+            </li>
+            <li><a class="main-nav-link" href="./about.html">About</a></li>
+            <li>
+              <a class="main-nav-link" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+          <div class="contact-me">
+            <a href="tel:+31681103905">+31 6 811 039 05</a><br />
+            <a href="mailto:info@tristanfloris.com">info@tristanfloris.com</a>
+          </div>
+        </nav>
+        <button
+          id="btn-nav"
+          aria-controls="main-nav"
+          aria-expanded="false"
+          class="mobile-nav-toggle"
+        >
+          Menu
+        </button>
+      </div>
+    </header>
+    <main class="main-content">
+      <section class="project-page container">
+        <div class="projects-page-hero">
+          <h3 class="projects-page-title">
+            Brand identity for XTRA architecture collective setting new
+            standards in high-rise buildings
+          </h3>
+          <p class="subheading-secondary">
+            In the future lots of people around the world flock to the city
+            centre. To make this possible we need to set new standards for
+            living in high-rise buildings. XTRA architecture collective is
+            setting new standards to prevent people in all social classes to be
+            seperated in the big cities. While maintaining sustainable building
+            techniques.
+          </p>
+        </div>
+        <div class="projects-page-details">
+          <a href="projects.html" class="next-project-btn">Next Project</a>
+          <ul class="projects-page-services">
+            <li class="projects-page-services-title"><span>Services</span></li>
+            <li class="projects-page-services-list">Brand Strategy</li>
+            <li class="projects-page-services-list">Brand Identity</li>
+          </ul>
+          <ul class="projects-page-services">
+            <li class="projects-page-services-title"><span>Client</span></li>
+            <li class="projects-page-services-list">
+              XTRA architecture collective
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="project-section">
+        <div class="project-case-backdrop">
+          <div class="project-main container">
+            <img
+              src="./css/assets/img/xtra-logo.png"
+              alt="Logo design of Club Forma"
+            />
+          </div>
+          <div class="container">
+            <div class="project-case-explainer fade-in">
+              <h4 class="heading-quaternary">Brand mission statement</h4>
+              <p class="subheading-secondary">
+                XTRA architecture collective is a firm dedicated to designing
+                and building innovative high-rise buildings that prioritize the
+                common good. Our mission is to create sustainable, livable
+                spaces that maximize the number of people we can house, while
+                also maintaining a focus on quality of life. We believe that
+                everyone in the city deserves access to safe and comfortable
+                housing, and we strive to make this a reality through our
+                cutting-edge designs and commitment to social responsibility.
+                Whether we are working on a project in the city center or on the
+                outskirts of town, we are always setting a new standard for what
+                is possible when we work together towards a shared vision of a
+                better world.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="project-case-grid container">
+          <div class="project-img grid-2-col">
+            <img
+              src="./css/assets/img/xtra-colors.png"
+              class="fade-in"
+              alt="Colors used in the brand identity of Club Forma"
+            />
+          </div>
+          <div class="project-img grid-2-col">
+            <img
+              src="./css/assets/img/xtra-typeface.png"
+              class="fade-in"
+              alt="Typeface used in the brand identity of Club Forma"
+            />
+          </div>
+          <div class="grid-1-col">
+            <p class="subheading-secondary fade-in">
+              Neutrality was really important in this brand identity. The brand
+              is here for all people and will not be overly shadowed by
+              targeting specific people. Letting the architecture and messages
+              shine and not overcompensate with everything unnecessary.
+            </p>
+          </div>
+          <div class="project-img grid-3-col">
+            <img
+              src="./css/assets/img/xtra-logo-grid.png"
+              class="fade-in"
+              alt="Part of brand identity highlight Club Forma paris edition"
+            />
+          </div>
+          <div class="project-img grid-4-col">
+            <img
+              src="./css/assets/img/xtra-stationary.png"
+              class="fade-in"
+              alt="Three posters overview of the brand identity of Club Forma"
+            />
+          </div>
+          <div class="project-img grid-3-col">
+            <img
+              src="./css/assets/img/xtra-businesscards.png"
+              class="fade-in"
+              alt="Poster mockup abri Club Forma"
+            />
+          </div>
+          <div class="grid-1-col">
+            <p class="subheading-secondary fade-in">
+              The inspiration for the brand identity comes from all the strong
+              lines you will find in high-rise architecture. Almost all cities
+              are build into some kind of grid because of the straight roads.
+              Therefore to maximize the space used by all buildings they will
+              naturally make the buildings angular or rectangular. These shapes
+              can be find throughout all designs.
+            </p>
+          </div>
+          <div class="project-img grid-4-col">
+            <img
+              src="./css/assets/img/xtra-social-ads-overview.png"
+              class="fade-in"
+              alt="Billboard in the subway with train in the brand idenity of club forma"
+            />
+          </div>
+          <div class="project-img grid-4-col">
+            <img
+              src="./css/assets/img/xtra-web-ui-overview.png"
+              class="fade-in"
+              alt="Billboard in the subway with train in the brand idenity of club forma"
+            />
+          </div>
+          <div class="project-img grid-4-col">
+            <img
+              src="./css/assets/img/xtra-billboard-double.png"
+              class="fade-in"
+              alt="Lots of posters stuck on wall - mockup"
+            />
+          </div>
+          <div class="project-img grid-4-col">
+            <img
+              src="./css/assets/img/xtra-billboard-single.png"
+              class="fade-in"
+              alt="All instagram ads for Club Forma paris edition"
+            />
+          </div>
+          <div class="project-img grid-3-col">
+            <img
+              src="./css/assets/img/xtra-building-sign.png"
+              class="fade-in"
+              alt="Part of brand identity highlight Club Forma paris edition"
+            />
+          </div>
+          <div class="project-img grid-1-col grid-filler"></div>
+          <div class="project-img grid-4-col">
+            <img
+              src="./css/assets/img/xtra-hoarding.png"
+              class="fade-in"
+              alt="Wall in brand identity of Club Forma"
+            />
+          </div>
+          <div class="project-img grid-1-col grid-filler"></div>
+          <div class="project-img grid-3-col">
+            <img
+              src="./css/assets/img/xtra-container-mockup.png"
+              class="fade-in"
+              alt="Flags in perspective in the brand identity of Club Forma"
+            />
+          </div>
+          <div class="project-img grid-4-col">
+            <img
+              src="./css/assets/img/xtra-hardhat.png"
+              class="fade-in"
+              alt="Part 2 of brand identity highlight Club Forma paris edition"
+            />
+          </div>
+        </div>
+      </section>
+      <hr class="solid container" />
+      <section class="more-projects-section container">
+        <h3 class="heading-tertiary fade-in from-bottom">More Projects</h3>
+        <div class="more-projects">
+          <div class="project-left fade-in from-bottom">
+            <div class="project-x">
+              <a href="projects.html">
+                <img src="./css/assets/img/10-Logo2.png" alt="#" />
+              </a>
+            </div>
+            <ul class="project-list">
+              <li class="project-list-title">
+                <a class="title-link" href="projects.html">Club Forma</a>
+              </li>
+              <li class="project-list-item">Brand Strategy</li>
+              <li class="project-list-item">Brand Identity</li>
+            </ul>
+            <a class="project-btn" href="projects.html">View project</a>
+          </div>
+
+          <div class="project-right fade-in from-bottom">
+            <div class="project-x">
+              <a href="projects-nunota.html">
+                <img src="./css/assets/img/nunota-logo.png" alt="#" />
+              </a>
+            </div>
+            <ul class="project-list">
+              <li class="project-list-title">
+                <a class="title-link" href="projects-nunota.html"
+                  >Nunota Finance App</a
+                >
+              </li>
+              <li class="project-list-item">UI/UX</li>
+              <li class="project-list-item">Brand Identity</li>
+            </ul>
+            <a class="project-btn" href="projects-nunota.html">View project</a>
+          </div>
+        </div>
+      </section>
+      <section class="contact-section container fade-in from-bottom">
+        <h3 class="heading-tertiary">
+          <span class="wordbreak">Find out what I can</span> do for your company
+          <a href="#" class="contact-link"
+            >Just leave a message!
+            <object class="arrow-right">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon-tabler-arrow-right"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                stroke-width="1.65"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <line x1="13" y1="18" x2="19" y2="12"></line>
+                <line x1="13" y1="6" x2="19" y2="12"></line>
+              </svg>
+            </object>
+          </a>
+        </h3>
+      </section>
+    </main>
+    <footer class="footer container">
+      <div class="footer-grid">
+        <div class="logo-col">
+          <a href="#" class="logo-footer"
+            >Tristan Floris<span class="superscript">TM</span></a
+          >
+        </div>
+        <div class="address-col">
+          <ul class="footer-nav">
+            <li>
+              <a class="footer-link" href="tel:+31681103905"
+                >+31 6 811 039 05</a
+              >
+            </li>
+            <li>
+              <a class="footer-link" href="mailto:info@tristanfloris.com"
+                >info@tristanfloris.com</a
+              >
+            </li>
+            <li>
+              <span class="local-time"> Local time - </span
+              ><span class="local-time" id="datetime"></span>
+            </li>
+          </ul>
+        </div>
+        <nav class="nav-col">
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Projects</a></li>
+            <li><a class="footer-link" href="#">About</a></li>
+            <li><a class="footer-link" href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="footer-copyright">
+          <p class="copyright">
+            Copyright &copy; Tristan van Strien <span class="year">2022</span>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

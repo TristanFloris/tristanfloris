@@ -1,0 +1,902 @@
+@media (max-width: 120em) {
+  /* 1920px */
+
+  .heading-primary {
+    font-size: 7.2rem;
+  }
+
+  .wordbreak-hero {
+    display: block;
+  }
+
+  /* Project page  */
+
+  .projects-page-details {
+    margin-bottom: 65rem;
+  }
+
+  /* ABOUT SECTION */
+  .about-hero {
+    margin-bottom: 4.8rem;
+  }
+
+  /* CONTACT PAGE ***********************************/
+  .contact-hero {
+    padding-top: 18%;
+  }
+
+  .contact-form {
+    column-gap: 8rem;
+  }
+}
+
+@media (max-width: 96em) {
+  /* 1536px */
+
+  .process-explain {
+    padding-right: 5%;
+  }
+
+  .process-illustration {
+    transform: translate3d(0px, -150px, 0);
+  }
+
+  .steps-text-box {
+    max-width: 100%;
+  }
+
+  /* PROJECTS PAGE ***********************************/
+  .projects-page-hero {
+    padding: 18% 0 7% 0;
+  }
+
+  /* ABOUT PAGE ***********************************/
+  .about-hero {
+    padding: 18% 0 7% 0;
+  }
+}
+
+@media (max-width: 90em) {
+  /* 1440px */
+
+  .heading-primary {
+    font-size: 7.2rem;
+  }
+
+  .hero {
+    grid-template-columns: 4fr 1fr;
+  }
+
+  .hero-text p {
+    max-width: 70%;
+  }
+
+  .wordbreak-hero {
+    display: block;
+  }
+
+  .process-grid {
+    grid-template-rows: 40rem;
+    margin-bottom: 20rem;
+  }
+
+  .process-explain {
+    padding-right: 0;
+  }
+
+  .steps-text-box {
+    padding-top: 18rem;
+  }
+  /* PROJECT PAGE  **********************************/
+  .project-page-hero {
+    padding: 16% 0 10% 0;
+  }
+
+  .projects-page-details {
+    margin-bottom: 43rem;
+  }
+
+  /* ABOUT PAGE **********************************/
+  .about-hero {
+    padding: 16% 0 10% 0;
+    margin-bottom: 2.4rem;
+  }
+
+  /* CONTACT PAGE */
+  .contact-hero {
+    padding: 16% 0 10% 0;
+  }
+
+  .contact-text {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 86em) {
+  /* 1366px */
+
+  /* HOME PAGE *********************************/
+  .process-illustration {
+    transform: translate3d(0px, -130px, 0);
+  }
+
+  /* CONTACT PAGE *********************************/
+  .contact-text {
+    max-width: 85%;
+  }
+}
+
+@media (max-width: 75em) {
+  /* 1200px */
+
+  /* HOME PAGE *********************************/
+  .heading-primary {
+    font-size: 6.2rem;
+  }
+
+  .hero {
+    grid-template-columns: 3fr 1fr;
+  }
+
+  .wordbreak-hero {
+    display: inline;
+  }
+
+  .project-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 43rem auto 43rem auto 43rem auto;
+    margin-bottom: 20rem;
+    height: 100%;
+  }
+
+  .project-1 {
+    grid-column: 1/-1;
+  }
+
+  .project-description,
+  .project-description-2,
+  .project-description-3 {
+    grid-column: 1/-1;
+    grid-row: auto;
+    display: block;
+  }
+
+  .project-2 {
+    grid-column: 1/-1;
+  }
+
+  .project-3 {
+    grid-column: 1/-1;
+  }
+
+  .process-grid {
+    grid-template-rows: 35rem;
+    margin-bottom: 22rem;
+  }
+
+  .process-explain-wrapper {
+    grid-row: 1;
+  }
+
+  .process-illustration {
+    transform: translate3d(36px, -70px, 0);
+  }
+
+  .process-container {
+    width: 100%;
+  }
+
+  .display-img:hover .hide {
+    display: none;
+  }
+
+  /* ABOUT PAGE *********************************/
+  .services {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr auto 1fr;
+    grid-row-gap: 9.6rem;
+    grid-column-gap: 2.4rem;
+    margin-bottom: 20rem;
+  }
+
+  .services-first-grid {
+    grid-column: 1/-1;
+  }
+
+  /* CONTACT PAGE ***********************************/
+  .contact-hero {
+    grid-template-columns: 1fr;
+    padding: 16% 0 10% 0;
+    margin-bottom: 5rem;
+  }
+
+  .contact-text {
+    grid-column: 1/-1;
+    grid-row: 1/2;
+    margin-bottom: 9.6rem;
+  }
+
+  form {
+    grid-column: 1/-1;
+    grid-row: 2/3;
+    margin-bottom: 12.8rem;
+  }
+
+  .contact-info {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 56em) {
+  /* 896px */
+
+  .hero {
+    padding-top: 30%;
+    margin-bottom: 4.8rem;
+  }
+
+  .hero-text p {
+    max-width: 90%;
+  }
+
+  .heading-primary {
+    font-size: 5.2rem;
+  }
+
+  .process-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-grid {
+    grid-template-rows: 26rem auto 26rem auto 26rem auto;
+  }
+
+  .project-description h3,
+  .project-description-2 h3,
+  .project-description-3 h3 {
+    margin-bottom: 1rem;
+  }
+
+  .process-illustration {
+    transform: translate3d(0, 70px, 0) scale(1.3);
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .logo-col {
+    grid-column: 1/2;
+  }
+
+  .contact-section .heading-tertiary {
+    max-width: 100%;
+  }
+
+  /* CONTACT PAGE ***********************************/
+  .contact-section {
+    margin-bottom: 11rem;
+  }
+
+  /* Project page  *********************************/
+  .projects-page-details {
+    margin-bottom: 32rem;
+  }
+
+  .grid-1-col {
+    grid-column-start: span 4;
+  }
+
+  .grid-2-col {
+    grid-column-start: span 4;
+  }
+
+  .grid-3-col {
+    grid-column-start: span 4;
+  }
+
+  .grid-4-col {
+    grid-column-start: span 4;
+  }
+
+  .grid-filler {
+    display: none;
+  }
+
+  /* ABOUT PAGE *********************************/
+  .services {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-row-gap: 9.6rem;
+    grid-column-gap: 2.4rem;
+    margin-bottom: 20rem;
+  }
+
+  .services-first-grid {
+    grid-column: 1/-1;
+  }
+
+  .grid-filler {
+    display: none;
+  }
+}
+
+@media (max-width: 40em) {
+  /* 640px */
+
+  body {
+    width: 100%;
+  }
+
+  .show-overlay body {
+    position: fixed;
+    left: 0;
+    right: 0;
+    overflow-y: hidden; /* render disabled scroll bar to keep the same width */
+    /* Suggestion to put: overflow-y: hidden; 
+  Disabled scrolling still makes a mess with its width. Hiding it does the trick. */
+  }
+
+  .show-overlay header {
+    opacity: 1;
+  }
+
+  .header-wrap {
+    padding: 1rem 1.4rem;
+  }
+
+  .main-nav-list {
+    position: fixed;
+    inset: 0 0 0 0;
+    padding-left: 5%;
+    flex-direction: column;
+    gap: 3.6rem;
+    justify-content: center;
+    align-items: flex-start;
+    background: var(--bg-opposite);
+    transition: transform 450ms cubic-bezier(0.33, 1, 0.68, 1),
+      opacity 800ms ease-in;
+    transform: translateY(100%);
+
+    z-index: 1000;
+    /* opacity: 0; */
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 4.4rem;
+    font-weight: 300;
+    color: var(--color-headings-opposite);
+  }
+
+  .main-nav-link:active {
+    color: var(--color-secondary-text);
+  }
+
+  .show-overlay .main-nav-list {
+    transform: translateY(0%);
+    transition: transform 600ms cubic-bezier(0.71, 0.27, 0.8, 0.9);
+    gap: 2rem;
+    will-change: transform;
+  }
+
+  .main-nav-list li {
+    transform: translateX(20%);
+    opacity: 0;
+  }
+
+  .main-nav-list li:nth-child(1) {
+    transform: translateX(80%);
+    opacity: 0;
+  }
+
+  .show-overlay .main-nav-list li {
+    opacity: 1;
+    transition: all 850ms ease;
+    will-change: transform;
+  }
+
+  .show-overlay .main-nav-list li:nth-child(1) {
+    transform: translateX(0%);
+    transition-delay: 300ms;
+  }
+
+  .show-overlay .main-nav-list li:nth-child(2) {
+    transform: translateX(0%);
+    transition-delay: 400ms;
+  }
+
+  .show-overlay .main-nav-list li:nth-child(3) {
+    transform: translateX(0%);
+    transition-delay: 500ms;
+  }
+
+  .show-overlay .main-nav-list li:nth-child(4) {
+    transform: translateX(0%);
+    transition-delay: 600ms;
+  }
+
+  .contact-me {
+    display: block;
+    opacity: 0;
+  }
+
+  .contact-me a {
+    text-decoration: none;
+    color: var(--color-headings-opposite);
+  }
+
+  .show-overlay .contact-me {
+    position: fixed;
+    bottom: 1.8%;
+    left: 5%;
+    font-size: 2rem;
+    line-height: 1.35;
+    font-weight: 500;
+    z-index: 9999;
+    opacity: 1;
+    transition: opacity 850ms ease;
+    transition-delay: 700ms;
+    will-change: transform;
+  }
+
+  .logo {
+    font-size: 2rem;
+  }
+
+  .mobile-nav-toggle {
+    display: block;
+    /* position: absolute;
+    top: 2rem;
+    left: 80%; */
+    z-index: 9999;
+    font-family: "PP Neue Montreal", helvetica, sans-serif;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: var(--color-headings);
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+  }
+
+  .show-overlay .mobile-nav-toggle {
+    color: var(--color-headings-opposite);
+  }
+
+  .toggle-container label {
+    transform: scale(0.8);
+    margin-left: -6px;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 45% 0 40% 0;
+  }
+
+  .hero-text p {
+    max-width: 100%;
+  }
+
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+
+  .heading-secondary {
+    font-size: 3.6rem;
+    font-weight: 300;
+  }
+
+  .heading-tertiary {
+    margin-bottom: 2.4rem;
+  }
+
+  .subheading {
+    font-size: 2.4rem;
+    line-height: 1.35;
+  }
+
+  .subheading-secondary {
+    font-size: 2rem;
+    line-height: 1.35;
+  }
+
+  .project-lists .project-details-2 {
+    display: none;
+  }
+
+  .process-grid {
+    grid-template-columns: 1fr;
+    margin-bottom: 30rem;
+  }
+
+  .process-explain {
+    padding-right: 5%;
+  }
+
+  .project-description h3,
+  .project-description h4 {
+    font-size: 2.4rem;
+  }
+
+  .process-illustration {
+    transform: translate3d(0, 16rem, 0) scale(1.4);
+  }
+
+  .accordion .heading-tertiary {
+    font-size: 2.4rem;
+  }
+
+  .process-number {
+    font-size: 2.4rem;
+  }
+
+  .process-headings {
+    padding-left: 4.8rem;
+  }
+
+  .accordion .accordion-content {
+    padding-left: 4.8rem;
+  }
+
+  .accordion .accordion-content p {
+    font-size: 2rem;
+    line-height: 1.35;
+  }
+
+  .accordion button .icon {
+    top: 11px;
+  }
+
+  .steps-grid {
+    margin-bottom: 4.8rem;
+    row-gap: 0;
+  }
+
+  .steps-number {
+    position: relative;
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  .steps-text-box {
+    padding: 0 0 0 0;
+    margin-bottom: 15rem;
+  }
+
+  .steps-text-box:last-child {
+    margin-bottom: 0;
+  }
+
+  .steps-img-box {
+    height: 20rem;
+    margin-bottom: 2rem;
+  }
+
+  .steps-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .steps-img-box:nth-child(4) {
+    grid-row: 3;
+  }
+
+  .steps-img-box:nth-child(8) {
+    grid-row: 7;
+  }
+
+  /* Quote marquee homepage */
+  .wrapper {
+    width: 150%;
+    height: 80px;
+    margin-bottom: 19rem;
+  }
+
+  .wrapper .box {
+    width: 900px; /* Vergeet niet de javascript aan te passen */
+    height: 100px;
+    font-size: 6rem;
+    line-height: 1;
+  }
+  .wrapper .boxes {
+    left: -900px; /* Vergeet niet de javascript aan te passen */
+  }
+
+  .contact-section h3 {
+    font-size: 3.4rem;
+  }
+
+  .contact-section .heading-tertiary {
+    line-height: 1.15;
+    margin-bottom: 10rem;
+  }
+
+  .contact-link:link,
+  .contact-link:visited {
+    font-size: 3.4rem;
+  }
+
+  .icon-tabler-arrow-right {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    transform: translate3d(-7px, 5px, 0);
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 7.4rem;
+  }
+
+  .logo-col {
+    grid-column: 1/3;
+  }
+
+  .logo-footer:link,
+  .logo-footer:visited {
+    margin-bottom: 8rem;
+  }
+
+  .footer-copyright {
+    padding-top: 20%;
+    grid-column: 1/3;
+  }
+
+  /* PROJECT Page *********************************/
+  .projects-page-hero {
+    padding: 50% 0 19% 0;
+    grid-template-columns: 1fr;
+  }
+
+  .projects-page-title {
+    margin-bottom: 3.2rem;
+    font-size: 3.6rem;
+  }
+
+  .next-project-btn:link,
+  .next-project-btn:visited,
+  .next-project-btn:active,
+  .next-project-btn:hover {
+    font-size: 1.6rem;
+    padding: 1.2rem 2.8rem;
+    right: auto;
+    left: 0;
+    transform: translateY(88px);
+  }
+
+  .projects-page-details {
+    max-width: 100%;
+    margin-bottom: 24rem;
+    gap: 6.4rem;
+  }
+
+  .project-case-explainer {
+    max-width: 100%;
+  }
+
+  .project-case-backdrop {
+    margin-bottom: -1px;
+  }
+
+  .project-case-1 {
+    padding-bottom: 60%;
+  }
+
+  .project-case-2 {
+    padding-bottom: 60%;
+  }
+
+  .project-case-3 {
+    padding-bottom: 60%;
+  }
+
+  .project-case-4 {
+    padding-bottom: 60%;
+  }
+
+  .project-case-5 {
+    padding-bottom: 60%;
+  }
+  .project-case-6 {
+    padding-bottom: 60%;
+    margin-bottom: 12.8rem;
+  }
+
+  .more-projects-section h3 {
+    font-size: 3.6rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .more-projects {
+    grid-template-columns: 1fr;
+    margin-bottom: 12.8rem;
+  }
+
+  .project-x {
+    padding-bottom: 0rem;
+  }
+
+  .project-left .project-btn {
+    margin-bottom: 6.4rem;
+  }
+
+  /* CONTACT PAGE *********************/
+
+  .contact-section {
+    margin-bottom: 0;
+  }
+
+  .contact-hero {
+    grid-template-columns: 1fr;
+    padding: 50% 0 25% 0;
+    margin-bottom: 0;
+  }
+
+  .contact-text {
+    max-width: 100%;
+  }
+
+  .contact-form {
+    grid-template-columns: 1fr;
+    margin-bottom: 12.8rem;
+  }
+
+  .form-wrap {
+    padding: 4.1rem 2.4rem 2.4rem 4.8rem;
+  }
+
+  .form-wrap:last-child {
+    margin-bottom: 9.6rem;
+  }
+
+  .contact-img {
+    transform: translateY(0%);
+    margin-bottom: 3.2rem;
+  }
+
+  /* Quote marquee contactpage */
+  .wrapper-2 {
+    width: 150%;
+    height: 80px;
+    margin-bottom: 5rem;
+  }
+
+  .wrapper-2 .box {
+    width: 1100px; /* Vergeet niet de javascript aan te passen */
+    height: 100px;
+    font-size: 6rem;
+    line-height: 1;
+  }
+  .wrapper-2 .boxes {
+    left: -1100px; /* Vergeet niet de javascript aan te passen */
+  }
+
+  /* ABOUT PAGE **************************/
+
+  .about-hero {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+
+    padding: 50% 0 0% 0;
+    margin-bottom: 13rem;
+  }
+
+  .about-text h2 {
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 1.23;
+  }
+
+  .about-text span {
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+  }
+
+  .office-img {
+    margin-bottom: 15rem;
+  }
+
+  .wordbreak {
+    display: block;
+  }
+
+  .services h2 {
+    font-size: 3.6rem;
+  }
+
+  /* CONTACT PAGE **************************/
+
+  .contact-hero {
+    padding: 50% 0 10% 0;
+    margin-bottom: 5rem;
+  }
+
+  .contact-text {
+    margin-bottom: 9.6rem;
+  }
+
+  form {
+    margin-bottom: 6.4rem;
+  }
+
+  .form-wrap {
+    padding: 4.1rem 1rem 2.4rem 2rem;
+  }
+
+  input[type="submit"] {
+    font-size: 1.6rem;
+    padding: 1.2rem 2.8rem;
+  }
+
+  .contact-info {
+    margin-bottom: 6.4rem;
+  }
+}
+
+@media (min-width: 1921px) {
+  .container {
+    width: 90%;
+    max-width: 1920px;
+  }
+
+  .header-wrap {
+    padding: 1rem 0;
+    width: 90%;
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+
+  .hero-text p {
+    max-width: 50%;
+  }
+
+  .wordbreak-hero {
+    display: block;
+  }
+
+  .process-grid {
+    margin-bottom: 47rem;
+  }
+
+  .project-grid {
+    margin-bottom: 45.6rem;
+  }
+
+  .process-explain {
+    padding-right: 30%;
+  }
+
+  .process-illustration {
+    transform: translate3d(-71px, -270px, 0px) scale(1);
+  }
+
+  .steps-text-box {
+    padding-top: 30rem;
+    max-width: 70%;
+  }
+
+  .projects-page-details {
+    margin-bottom: 70rem;
+  }
+
+  .project-case-1 {
+    padding-bottom: 40%;
+  }
+
+  /* PROJECT SECTION */
+
+  .project-x {
+    padding-bottom: 42rem;
+  }
+
+  /* ABOUT SECTION */
+
+  .about-hero {
+    margin-bottom: 0;
+  }
+}
